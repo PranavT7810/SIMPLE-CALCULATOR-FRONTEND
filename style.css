@@ -1,0 +1,99 @@
+#Calculator{
+
+max-width: 500px;
+background-color: black; 
+background-color: hsla(0 ,0% ,15%);
+border-radius: 25px;
+
+position: relative;
+top: 25px;
+
+}
+
+#keys{
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+padding: 20px;
+cursor: pointer;
+
+}
+
+button{
+
+height: 100px;
+width: 100px;
+background-color: black; 
+background-color: hsla(0 ,0% ,35%);
+color: white;
+font-weight: bold;
+border-width: 0px;
+border-radius: 50px;
+border-style: solid;
+font-size: 80px;
+margin: 5px;
+cursor: pointer;
+
+}
+
+button:hover{
+
+background-color: black; 
+background-color: hsla(0 ,0% ,40%);
+
+}
+
+button:active{
+
+background-color: black; 
+background-color: hsla(0 ,0% ,48%);
+
+}
+
+#display{
+
+margin: 0px;
+display: inline-block;
+height: 110px;
+margin-top: 25px;
+width: 500px;
+overflow: hidden;
+font-size: 65px;
+color: white;
+background-color: black;
+background-color: hsla(0 ,0% ,35%);
+border-radius: 1px;
+border: none;
+cursor: pointer;
+
+}
+
+.operator-btn{
+
+background-color: orange;
+background-color: hsla(35, 100%, 55%)
+
+}
+
+.operator-btn:hover{
+
+background-color: orange;
+background-color: hsla(35, 100%, 65%)
+
+}
+
+.operator-btn:active{
+
+background-color: hsla(35, 100%, 75%)
+
+}
+
+
+body{
+
+margin: 0px;
+max-width: 100%;
+background-color: hsla(0 ,0% ,87%); 
+
+}
